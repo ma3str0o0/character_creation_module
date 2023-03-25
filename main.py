@@ -1,6 +1,9 @@
 from random import randint
 
 
+# character_creation_module/main.py
+
+
 def attack(char_name: str, char_class: str) -> str:
     if char_class == 'warrior':
         return (f'{char_name} нанёс противнику урон, равный '
